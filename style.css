@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: lightgrey;
+}
+.container{
+    background: white;
+    position: relative;
+    width: 50vw;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    border: 1px solid black;
+}
+.player-panel{
+    width: 50%;
+    padding: 1rem;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    height: 100%;
+    left: 43%;
+    right:50%;
+}
+button{
+    border: 0;
+    width: 8em;
+    padding: 1em;
+    color: white;
+    background: rgba(56, 52, 52, 0.774);
+    font-weight: bold;
+    cursor: pointer;
+}
+button:enabled{
+    outline: none;
+}
+.hold{
+    margin-bottom:2em;
+
+}
+.roll{
+    margin-bottom: 2em;
+}
+.new{
+    margin-top: 1.3em;
+    margin-bottom: auto;
+}
+.active{
+    background: rgba(211, 211, 211, 0.466);
+}
+.player-name{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    color: rgba(77, 73, 73, 0.774);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.global-score{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgba(172, 37, 37, 0.801);
+    padding: 1rem;
+}
+.current{
+    background:  rgba(172, 37, 37, 0.801);
+    margin: 10em auto 2em;
+    padding: .2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 40%;
+}
+.current-score{
+    margin-top: 1em;
+    font-size: 1.7em;
+    color: white;
+}
+.dice{
+    background: white;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:rgb(131, 60, 60);
+    border: 1px solid black;
+    position: absolute;
+    border: 1px solid ;
+    top: 50%;
+    left: 45%;
+    position: absolute;
+    text-align: center;
+
+}
+.winner{
+    color: red;
+}
+.next_player{
+    border: 1px solid red;
+    width: 60%;
+    margin:1em auto 0em;
+    text-align: center;
+    color: rgb(131, 60, 60);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
+}
